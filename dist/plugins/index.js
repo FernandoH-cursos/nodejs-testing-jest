@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.buildLogger = exports.http = exports.getUUID = exports.getAge = void 0;
+const get_age_plugin_1 = require("./get-age.plugin");
+Object.defineProperty(exports, "getAge", { enumerable: true, get: function () { return get_age_plugin_1.getAge; } });
+const get_id_plugin_1 = require("./get-id.plugin");
+Object.defineProperty(exports, "getUUID", { enumerable: true, get: function () { return get_id_plugin_1.getUUID; } });
+const http_client_plugin_1 = require("./http-client.plugin");
+Object.defineProperty(exports, "http", { enumerable: true, get: function () { return http_client_plugin_1.httpClientPlugin; } });
+const logger_plugin_1 = require("./logger.plugin");
+Object.defineProperty(exports, "buildLogger", { enumerable: true, get: function () { return logger_plugin_1.buildLogger; } });
