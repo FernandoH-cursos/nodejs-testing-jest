@@ -6,7 +6,7 @@ describe("plugins/get-id.plugin.ts", () => {
 
     //* Probando que el uuid sea un string
     expect(typeof uuid).toBe('string');
-    //* Probando que el uuid tenga un largo de 36 caracteres
+    //* Probando que el uuid tenga un largo de 36 caracteres v
     expect(uuid.length).toBe(36);
   });
 });
